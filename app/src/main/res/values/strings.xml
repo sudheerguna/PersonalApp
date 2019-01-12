@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">PersonalApp</string>
+
+
+    <string name="enter_emial">Email-ID</string>
+    <string name="enter_userName">UserName</string>
+    <string name="pwd">Password</string>
+    <string name="cpwd">Confirm Password</string>
+    <string name="log_in">LOG IN</string>
+    <string name="no_acc">Dont\'t have an account?</string>
+    <string name="reg_now">Sign Up</string>
+    <string name="enter_Name">Name</string>
+    <string name="enter_phone">Phone Number</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="no_details">No Details Added</string>
+    <string name="logout">Log Out</string>
+    <!-- Validations -->
+    <string name="user_name_validations">Please Enter User Name</string>
+    <string name="invalid_username_validations">Invalid username</string>
+    <string name="user_name_invalid_validations">Short User Name</string>
+    <string name="phone_validations">Please enter phone number</string>
+    <string name="phoneLength_validations">The phone number must be between 6 and 12 digits in length</string>
+    <string name="email_validations">Please enter email address</string>
+    <string name="invalid_email_validations">Invalid email address</string>
+    <string name="password_validations">Please enter password</string>
+    <string name="password_invalid_validations">Password must be minimum 6 characters, Atleast one character should be uppercase and another character should be lowercase. Another character should be of numerical value. </string>
+    <string name="confirm_password_validations">Please Enter confirm password</string>
+    <string name="confirm_password_mismatch_validations">Passwords didn\'t match</string>
+    <string name="title_activity_home_page">HomePage</string>
+
+</resources>

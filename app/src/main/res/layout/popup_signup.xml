@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:id="@+id/card_txt_q_popup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="@dimen/margin25"
+        android:padding="@dimen/margin15"
+        android:background="@drawable/shadow_bg_blue"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin50"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/margin10"
+            android:background="@drawable/shadow_bg"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/margin20"
+                android:layout_height="@dimen/margin20"
+                android:layout_marginLeft="@dimen/margin30"
+                android:src="@drawable/user_blue" />
+
+            <com.doodleblue.personalapp.CustomView.CustomEdittext_Regular
+                android:id="@+id/et_UserName"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/margin10"
+                android:layout_marginRight="@dimen/margin7"
+                android:singleLine="true"
+                android:inputType="text"
+                android:background="@null"
+                android:hint="@string/enter_userName"
+                android:textColorHint="@color/blue"
+                android:textColor="@color/blue"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin50"
+            android:layout_marginTop="@dimen/margin10"
+            android:gravity="center"
+            android:background="@drawable/shadow_bg"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/margin20"
+                android:layout_height="@dimen/margin20"
+                android:layout_marginLeft="@dimen/margin30"
+                android:src="@drawable/mail_blue" />
+
+            <com.doodleblue.personalapp.CustomView.CustomEdittext_Regular
+                android:id="@+id/et_email_signup"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/margin10"
+                android:layout_marginRight="@dimen/margin7"
+                android:singleLine="true"
+                android:inputType="textWebEmailAddress"
+                android:background="@null"
+                android:hint="@string/enter_emial"
+                android:textColorHint="@color/blue"
+                android:textColor="@color/blue"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin50"
+            android:layout_marginTop="@dimen/margin10"
+            android:gravity="center"
+            android:background="@drawable/shadow_bg"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/margin20"
+                android:layout_height="@dimen/margin20"
+                android:layout_marginLeft="@dimen/margin30"
+                android:src="@drawable/pwd_blue" />
+
+            <com.doodleblue.personalapp.CustomView.CustomEdittext_Regular
+                android:id="@+id/et_pwd_signup"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/margin10"
+                android:layout_marginRight="@dimen/margin7"
+                android:singleLine="true"
+                android:inputType="textWebPassword"
+                android:background="@null"
+                android:hint="@string/pwd"
+                android:textColorHint="@color/blue"
+                android:textColor="@color/blue"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin50"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/margin10"
+            android:background="@drawable/shadow_bg"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/margin20"
+                android:layout_height="@dimen/margin20"
+                android:layout_marginLeft="@dimen/margin30"
+                android:src="@drawable/pwd_blue" />
+
+            <com.doodleblue.personalapp.CustomView.CustomEdittext_Regular
+                android:id="@+id/et_cpwd_signup"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/margin10"
+                android:layout_marginRight="@dimen/margin7"
+                android:singleLine="true"
+                android:inputType="textWebPassword"
+                android:background="@null"
+                android:hint="@string/cpwd"
+                android:textColorHint="@color/blue"
+                android:textColor="@color/blue"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin50"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/margin25"
+            android:background="@drawable/shadow_bg_blue"
+            android:orientation="horizontal">
+
+
+
+            <com.doodleblue.personalapp.CustomView.ButtonTypeface
+                android:id="@+id/btn_signup"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:hint="@string/reg_now"
+                android:textColorHint="@color/white"
+                android:textSize="@dimen/margin20"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
